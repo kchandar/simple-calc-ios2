@@ -12,6 +12,7 @@
 		08ACDE3C2024566B00DFEECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08ACDE3A2024566B00DFEECA /* Main.storyboard */; };
 		08ACDE3E2024566B00DFEECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08ACDE3D2024566B00DFEECA /* Assets.xcassets */; };
 		08ACDE412024566B00DFEECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08ACDE3F2024566B00DFEECA /* LaunchScreen.storyboard */; };
+		08ACDE49202456B600DFEECA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ACDE48202456B600DFEECA /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		08ACDE3D2024566B00DFEECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08ACDE402024566B00DFEECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08ACDE422024566B00DFEECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08ACDE48202456B600DFEECA /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				08ACDE362024566B00DFEECA /* AppDelegate.swift */,
 				08ACDE382024566B00DFEECA /* ViewController.swift */,
+				08ACDE48202456B600DFEECA /* HistoryViewController.swift */,
 				08ACDE3A2024566B00DFEECA /* Main.storyboard */,
 				08ACDE3D2024566B00DFEECA /* Assets.xcassets */,
 				08ACDE3F2024566B00DFEECA /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08ACDE49202456B600DFEECA /* HistoryViewController.swift in Sources */,
 				08ACDE392024566B00DFEECA /* ViewController.swift in Sources */,
 				08ACDE372024566B00DFEECA /* AppDelegate.swift in Sources */,
 			);
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6CJARH6555;
 				INFOPLIST_FILE = "simple-calc-ios2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.keertanachandar.simple-calc-ios2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6CJARH6555;
 				INFOPLIST_FILE = "simple-calc-ios2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.keertanachandar.simple-calc-ios2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
